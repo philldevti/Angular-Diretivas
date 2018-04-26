@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { BotaoDirective } from './componentes/botao.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BotaoDirective
   ],
   imports: [
     BrowserModule
