@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  abrirGoogle() {
+    window.open('http://www.google.com.br', '_blank')
+  }
 }
