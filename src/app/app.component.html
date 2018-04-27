@@ -1,1 +1,9 @@
+
 <button id="teste" class="btn btn-primary btn-sm" [btnConfirm]="abrirGoogle"> Teste</button>
+<app-datepicker (dataSelected)="pegarData($event)" ><input type="text" appValidate [onChangeValidate]="validaData" ></app-datepicker>
+<datepicker (dataSelected)="pegarData($event)"></datepicker>
+<datepicker></datepicker>
+<datepicker></datepicker>
+<datepicker></datepicker>
+<datepicker></datepicker>
+<label >{{data}}</label>

@@ -7,8 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  data: any;
 
   abrirGoogle() {
-    window.open('http://www.google.com.br', '_blank')
+    window.open('http://www.google.com.br', '_blank');
+  }
+
+  pegarData(e) {
+    console.log(e);
+    this.data = e;
+  }
+
+  validaData(e) {
+    alert(e);
   }
 }
